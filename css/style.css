@@ -48,6 +48,7 @@ html {
 /** Header Estilos css **/
 .nav {
    background-color: rgb(87, 128, 161);
+   text-align: center;
 }
 .nav__li {
    display: inline-block;
