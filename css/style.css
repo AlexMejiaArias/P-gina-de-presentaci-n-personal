@@ -45,3 +45,26 @@ html {
 .c5{
    background-color: seagreen;
 }
+/** Header Estilos css **/
+.nav {
+   background-color: rgb(87, 128, 161);
+}
+.nav__li {
+   display: inline-block;
+   padding: 20px;
+   color: floralwhite;
+}
+.nav__li:hover {
+   color: rgb(185, 181, 181);
+}
+.nav__li:hover > a {
+   color: rgb(185, 181, 181);
+}
+
+.nav__li a {
+   color: floralwhite;
+   text-decoration: none;
+}
+.nav__li i {
+   width: 25px;
+}
