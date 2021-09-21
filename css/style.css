@@ -4,6 +4,8 @@
    margin: 0;
 }
 
+
+
 html {
     font-size: 62.5%;
    
@@ -13,6 +15,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    background-color: brown;
 }
 
 .c1,
@@ -24,32 +27,14 @@ html {
    min-height: 10vh;
 }
 
-.c1 {
-  background-color: yellow;
-}
 
 .c2 {
-   background-color: blue;
+  
    font-size: 1.3rem;
    padding: 5%;
 }
 
 
-.c3{
-  background-color: red;
-}
-
-.c4{
-  background-color: saddlebrown;
-}
-
-.c5{
-  background-color: seagreen;
-}
-
-.c6{
-  background-color:aqua ;
-}
 .picture{
   display: block;
   width: 50%;
@@ -202,3 +187,93 @@ padding: 5% 10%;
 .size{
    font-size: 3rem;
 }
+/** Header Estilos css **/
+.nav__response-ul {
+   display: none;
+}
+.nav {
+   background-color: rgb(87, 128, 161);
+   text-align: center;
+}
+.nav__li {
+   display: inline-block;
+   padding: 2rem;
+   color: floralwhite;
+}
+.nav__li:hover {
+   color: rgb(185, 181, 181);
+}
+.nav__li:hover > a {
+   color: rgb(185, 181, 181);
+}
+
+.nav__li a {
+   color: floralwhite;
+   text-decoration: none;
+   font-size: 15px;
+}
+.nav__li i {
+   width: 25px;
+}
+@media only screen and (max-width: 540px) {
+   .nav__ul {
+     display: none;
+   }
+   .nav__response-ul {
+      display: block;
+      position:absolute;
+      width: 100%;
+      margin-top: 38px;
+      padding-top: 34px;
+      height: 38px;
+   }
+   .nav__response-li:hover{
+      background-color: rgb(32, 144, 218);
+   }
+   .nav__li-container {
+      position: relative;
+      top: -1000px;
+      height: calc(100vh - 74px);
+      background: rgb(50, 131, 168);
+      transition: all 1s;
+      z-index: 1;
+      width:75%;
+   }
+   .nav {
+      height: 38px;
+      width: 100%;
+   }
+   .nav__response-li {
+      width: 100%;
+      padding: 10px 20px;
+   }
+   .nav__response-li i {
+      box-sizing: border-box;
+      text-align: center;
+      margin-right: 4px;
+      width: 30px;
+      color:floralwhite
+   }
+   .nav__response-li a {
+      color: floralwhite;
+      text-decoration: none;
+      font-size: 15px;
+   }
+   .nav__response-ul:hover > .nav__li-container {
+      top: -25px;
+   }
+ }
+ .nav__response-button-container{
+   position:absolute;
+   width: 100%;
+   font-size: 25px;
+   background-color: rgb(87, 128, 161);
+   margin-top: -78px;
+   z-index: 100;
+   padding: 8px;
+ }
+ .nav__response-button {
+    padding: 6px 20px;
+    text-align: right;
+    width: 100%;
+ }
