@@ -45,3 +45,30 @@ html {
 .c5{
    background-color: seagreen;
 }
+footer {
+   width: 100%;
+   display: table;
+   position: fixed; /* para mover el footer hacia abajo*/
+   bottom: 0;
+ }
+ .redes {
+   margin: 0px auto; /* le pone los iconos centrados*/
+   display: table;
+ }
+ .redes__li {
+    float: left;
+    padding: 5px;
+    list-style: none;
+ }
+ .redes__li a {
+    color: black;
+    transition: all 0.5s ease 0s;
+ }
+ .redes__li a i {
+    padding: 10px; /*separacion entre iconos*/
+    font-size: 25px;
+ }
+ .redes__li a:hover {
+    color: cadetblue;
+    transition: all 0.5s ease 0s;
+ }
