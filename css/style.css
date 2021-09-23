@@ -15,7 +15,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    background-color: brown;
+   
 }
 
 .c1,
@@ -36,10 +36,12 @@ html {
 
 
 .picture{
-  display: block;
-  width: 50%;
-  height: 80%;
-  margin: 0 auto;
+   display: block;
+   margin: 0 auto;
+   margin-top: 2rem;
+   width: 80%;
+   height: 80%;
+   border-radius: 2rem;
 }
 .picture1{
    display: block;
@@ -75,9 +77,6 @@ html {
 
 .card h3{
 padding: 5% 10%;
-}
-.size{
-  font-size: 3rem;
 }
 
 /*carousel*/
@@ -166,17 +165,12 @@ padding: 5% 10%;
 .c6{
    background-color:aqua ;
 }
-.picture{
-   display: block;
-   width: 50%;
-   height: 80%;
-   margin: 0 auto;
-}
+
 
 .card {
    height: 20vh;
+   width: 70vw;
    background-color: gray;
-   margin: 3% 20%;
    border-radius: 2rem;
 }
 
