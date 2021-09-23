@@ -294,3 +294,48 @@ input[type=checkbox],label {
  }
 
 }
+footer {
+   width: 100%;
+   display: table;
+   bottom: 0;
+   background: rgb(226, 218, 218);
+  
+ }
+ .redes {
+   margin: 0px auto; /* le pone los iconos centrados*/
+   display: table;
+ }
+ .redes__li {
+    float: left;
+    padding: 5px;
+    list-style: none;
+ }
+ .redes__li a {
+    color: black;
+    transition: all 0.5s ease 0s;
+ }
+ .redes__li a i {
+    padding: 10px; /*separacion entre iconos*/
+    font-size: 25px;
+ }
+ .redes__li .instagram:hover {
+    color: rgba(218, 49, 181, 0.856);
+    transition: all 0.5s ease 0s;
+ }
+ .redes__li .facebook:hover {
+   color: rgb(37, 58, 245);
+   transition: all 0.5s ease 0s;
+}
+.redes__li .twitter:hover {
+   color: rgb(7, 158, 218);
+   transition: all 0.5s ease 0s;
+}
+.redes__li .whatsapp:hover {
+   color: rgb(106, 243, 78);
+   transition: all 0.5s ease 0s;
+}
+ .copy {
+    margin: 0px auto;
+    display: table;
+    font-size: 15px;
+ }
