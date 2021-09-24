@@ -3,9 +3,6 @@
    padding: 0;
    margin: 0;
 }
-
-
-
 html {
     font-size: 62.5%;
    
@@ -15,7 +12,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
 }
 
 .c1,
@@ -41,36 +38,54 @@ html {
   height: 80%;
   margin: 0 auto;
 }
-.picture1{
+.picture2{
    display: block;
    width: 60%;
    height: 80%;
    margin: 0 auto;
    padding: 5%;
    border-radius: 1rem;
+   max-width: 50vh;
+   max-height: 50vh;
  }
- .picture2{
+ .picture3{
    height: 90%;
    width: 90%;
    margin: 0 auto;
    padding: 5%;
    border-radius: 1rem;
+   max-width: 50vh;
+   max-height: 50vh;
  }
-.card {
-  height: 65%;
-  background-color: rgb(150, 22, 22);
-  margin: 0 auto;
-  padding: 5%;
-  border-radius: 1rem;
-}
 .card1 {
  height: 0 auto;
  width: 80%;
- background-color: rgb(255, 255, 255);
+ background-color: rgb(236, 234, 234);
  margin: 0 auto;
- padding: 5%;
- color: rgb(15, 15, 15);
+ padding: 8%;
+ color: rgb(0, 0, 0);
  border-radius: 1rem;
+ font-weight: bold
+}
+.card2 {
+  height: 0 auto;
+  width: 80%;
+  background-color: rgb(236, 234, 234);
+  margin: 0 auto;
+  padding: 9%;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  font-weight: bold
+ }
+ .btn {
+  background-color: #e20d0d; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .card h3{
@@ -95,15 +110,10 @@ padding: 5% 10%;
    
    .slides {
      display: flex;
-     
      overflow-x: auto;
      scroll-snap-type: x mandatory;
-     
-     
-     
      scroll-behavior: smooth;
      -webkit-overflow-scrolling: touch;
-     
      /*
      scroll-snap-points-x: repeat(300px);
      scroll-snap-type: mandatory;
@@ -112,13 +122,6 @@ padding: 5% 10%;
    .slides::-webkit-scrollbar {
      width: 10px;
      height: 10px;
-   }
-   .slides::-webkit-scrollbar-thumb {
-     background: black;
-     border-radius: 10px;
-   }
-   .slides::-webkit-scrollbar-track {
-     background: transparent;
    }
    .slides > div {
      scroll-snap-align: start;
@@ -132,37 +135,12 @@ padding: 5% 10%;
      transform: scale(1);
      transition: transform 0.5s;
      position: relative;
-     
      display: flex;
      justify-content: center;
      align-items: center;
      font-size: 100px;
    }
-   img {
-     object-fit: cover;
-     position: center;
-     top: 0;
-     left: 0;
-     width: 80%;
-     height: 100%;
-   }
-   .slider > a {
- display: inline-flex;
- width: 1.5rem;
- height: 1.5rem;
- background: white;
- text-decoration: none;
- align-items: center;
- justify-content: center;
- border-radius: 50%;
- margin: 0 0 0.5rem 0;
- position: relative;
-}
-
-.slider > a:active {
- top: 1px;
-}
-
+   
 .c6{
    background-color:aqua ;
 }
@@ -298,5 +276,4 @@ input[type=checkbox],label {
     display: block;
     border-bottom: 1px solid rgba(55, 100, 226, 0.267);
  }
-
 }
